@@ -1,0 +1,153 @@
+body{
+    background-color: black;
+    font-family: poppins;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+/*.container {
+    margin: 20px 20px auto 40px;
+}*/
+header{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-row: auto;
+    position: fixed;
+    background-color: black;
+    width: 92%;
+    padding: 0 3% 0 5%;
+}
+.logo{
+    font-size: 50px;
+}
+.logo a{
+    text-decoration: none;
+    color: #00bf63;
+    font-weight: 700;
+}
+.nav-menu{
+    display: inline-flex;
+    flex-direction: row;
+    flex-basis: 100px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: white;
+    border-bottom: solid 2px white;
+    padding: 10px;
+}
+.nav-menu a:active{
+    color: #00bf63;
+    font-weight: 700;
+    border-color: #00bf63;
+}
+main{
+    padding: 75px 3% 0 5%;
+}
+#home{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+}
+.perkenalan{
+    margin-top: 75px;
+
+}
+.perkenalan ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.perkenalan-1a{
+    font-size: 1.5rem;
+}
+.perkenalan-1a span{
+    color: #00bf63;
+    font-weight: 700;
+}
+.perkenalan-1b span{
+    color: #00bf63;
+    text-decoration-color: #00bf63;
+    text-decoration: underline;
+}
+.perkenalan-1b{
+    font-size: 3rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.perkenalan-1c{
+    
+}
+.perkenalan-2{
+    margin-top: 75px;
+    font-size: 1.25rem;
+}
+.perkenalan-2a{
+    display: inline-block;
+    background-color: #00bf63;
+    font-weight: 700;
+    border-radius: 15px;
+    padding: 5px;
+}
+.perkenalan-2a a{
+    text-decoration: none;
+    color: white;
+}
+.perkenalan-2b{
+    margin-top: 10px;
+}
+.foto-diri{
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: start;
+}
+.foto-diri img{
+    height: 400px;
+}
+h2{
+    margin-top: 0;
+    padding: 0;
+}
+h2 span{
+    border-bottom: solid 4px #00bf63;
+}
+#about{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 75px;
+}
+.sub-title{
+    width: 300px;
+}
+.deskripsi{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-items: center;
+}
+.deskripsi img{
+    width: 300px;
+
+}
+.sub-title span{
+    color: #00bf63;
+}
+#skills{
+    margin-top: 50px;
+}
+.skill-description{
+    padding-left: 15px;
+}
+.skill-title span{
+    color: #00bf63;
+}
+#work-experience{
+    margin-top: 75px;
+}
+.work-description{
+    padding-left: 15px;
+}
+.work-title span{
+    color: #00bf63;
+}
