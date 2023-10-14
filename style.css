@@ -2,16 +2,20 @@ body{
     background-color: black;
     font-family: poppins;
     color: white;
+    padding: 0;
+    margin: 0;
 }
-.container {
+/*.container {
     margin: 20px 20px auto 40px;
-}
+}*/
 header{
     display: grid;
     grid-template-columns: 20% 80%;
     grid-row: auto;
     position: fixed;
     background-color: black;
+    width: 92%;
+    padding: 0 3% 0 5%;
 }
 .logo{
     font-size: 50px;
@@ -40,7 +44,7 @@ header{
     border-color: #00bf63;
 }
 main{
-    padding-left: 50px;
+    padding: 75px 3% 0 5%;
 }
 #home{
     display: grid;
@@ -100,7 +104,7 @@ main{
     align-items: start;
 }
 .foto-diri img{
-    height: 300px;
+    height: 400px;
 }
 h2{
     margin-top: 0;
