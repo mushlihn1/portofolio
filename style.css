@@ -55,6 +55,9 @@ main{
     list-style: none;
     padding-left: 0px;
 }
+.perkenalan-1a{
+    font-size: 1.5rem;
+}
 .perkenalan-1a span{
     color: #00bf63;
     font-weight: 700;
@@ -65,12 +68,16 @@ main{
     text-decoration: underline;
 }
 .perkenalan-1b{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
     text-decoration: underline;
 }
+.perkenalan-1c{
+    
+}
 .perkenalan-2{
-    margin-top: 30px;
+    margin-top: 75px;
+    font-size: 1.25rem;
 }
 .perkenalan-2a{
     display: inline-block;
